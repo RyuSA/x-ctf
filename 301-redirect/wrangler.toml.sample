@@ -1,0 +1,10 @@
+name = "301-redirect"
+main = "src/index.ts"
+compatibility_date = "2023-10-16"
+
+routes = [
+	{ pattern = "redirect301.xctf.ryusa.app", custom_domain = true }
+]
+
+[vars]
+LOCATION = ""
