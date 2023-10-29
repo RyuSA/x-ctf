@@ -1,0 +1,11 @@
+name = "welcome-cookie"
+main = "src/index.ts"
+compatibility_date = "2023-10-16"
+
+routes = [
+	{ pattern = "root.xctf.ryusa.app", custom_domain = true }
+]
+
+[vars]
+JWT_KEY = ""
+FLAG    = ""
