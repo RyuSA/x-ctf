@@ -1,0 +1,7 @@
+name = "wrong-operation"
+main = "src/index.ts"
+compatibility_date = "2023-10-16"
+
+routes = [
+	{ pattern = "wrongope.xctf.ryusa.app", custom_domain = true }
+]
