@@ -9,3 +9,4 @@ routes = [
 [vars]
 JWT_KEY = ""
 FLAG    = ""
+NEXT    = ""
