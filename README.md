@@ -4,10 +4,10 @@ x-ryusa-ctf
 Visit the entrypoint. [https://root.xctf.ryusa.app/](https://root.xctf.ryusa.app/)
 
 ## Write up
-1. [Welcome Cookie](./welcome-cookie/writeup.md)
-2. [301 Moved Permanently?](./301-redirect/writeup.md)
-3. [You cannot see this page.](./wrong-operation/writeup.md)
-4. [Prompting...](./prompting/writeup.md)
+1. [Welcome Cookie](./welcome-cookie/README.md)
+2. [301 Moved Permanently?](./301-redirect/README.md)
+3. [You cannot see this page.](./wrong-operation/README.md)
+4. [Prompting...](./prompting/README.md)
 
 ## Development
 
