@@ -1,0 +1,7 @@
+site_name: 'RyuSA/x-ctf'
+
+nav:
+  - Home: README.md
+
+plugins:
+  - techdocs-core
