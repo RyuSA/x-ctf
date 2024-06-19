@@ -1,0 +1,95 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: x-ctf
+  description: A collection of CTF challenges and tools.
+  tags:
+    - ctf
+  links:
+    - url: https://github.com/RyuSA/x-ctf
+      title: RyuSA/x-ctf
+      icon: github
+spec:
+  owner: user:RyuSA
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: welcome-cookie
+  description: Error: "You are not admin. Please login as admin to see the flag!"
+  tags:
+    - ctf
+    - cookie
+    - jwt
+  annotations:
+    backstage.io/source-location: url:https://github.com/RyuSA/x-ctf/tree/main/welcome-cookie
+  links:
+    - url: https://root.xctf.ryusa.app
+      title: xctf.ryusa.app
+      icon: catalog
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:RyuSA
+  system: x-ctf
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 301-redirect
+  description: "Moved Permanently. The document has moved to...where?"
+  tags:
+    - ctf
+    - http
+  annotations:
+    backstage.io/source-location: url:https://github.com/RyuSA/x-ctf/tree/main/301-redirect
+  links:
+    - url: https://root.xctf.ryusa.app
+      title: xctf.ryusa.app
+      icon: catalog
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:RyuSA
+  system: x-ctf
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: operational-error
+  description: "You Should Not Be Here! See the work log to check your operation is correct."
+  tags:
+    - ctf
+    - cloudflare
+    - dns
+  annotations:
+    backstage.io/source-location: url:https://github.com/RyuSA/x-ctf/tree/main/operational-error
+  links:
+    - url: https://root.xctf.ryusa.app
+      title: xctf.ryusa.app
+      icon: catalog
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:RyuSA
+  system: x-ctf
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prompting
+  description: "QA system. LLM will answer your question."
+  tags:
+    - ctf
+    - llm
+  annotations:
+    backstage.io/source-location: url:https://github.com/RyuSA/x-ctf/tree/main/prompting
+  links:
+    - url: https://root.xctf.ryusa.app
+      title: xctf.ryusa.app
+      icon: catalog
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:RyuSA
+  system: x-ctf
