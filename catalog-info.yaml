@@ -9,6 +9,8 @@ metadata:
     - url: https://github.com/RyuSA/x-ctf
       title: RyuSA/x-ctf
       icon: github
+  annotations:
+    backstage.io/techdocs-ref: ./
 spec:
   owner: user:RyuSA
 ---
