@@ -10,7 +10,7 @@ metadata:
       title: RyuSA/x-ctf
       icon: github
   annotations:
-    backstage.io/techdocs-ref: ./
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: user:RyuSA
 ---
