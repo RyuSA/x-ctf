@@ -16,7 +16,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: welcome-cookie
-  description: Error: "You are not admin. Please login as admin to see the flag!"
+  description: "Error: You are not admin. Please login as admin to see the flag!"
   tags:
     - ctf
     - cookie
